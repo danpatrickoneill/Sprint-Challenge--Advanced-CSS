@@ -48,7 +48,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 - Preprocessing adds features and syntax to CSS such that we can re-use useful code, keep everything better organized, and write less, more effective code. And then it all gets compiled into a nice big CSS file for our HTML to refer to.
 
-5. What is your favorite concept in p
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
 - I love the nesting. Instead of juggling a class name for every element on the page. I can organize my CSS intuitively and as long as there's a specific class somewhere upstream, I know everything should work as intended without any nasty side effects. I definitely still have a lot to learn about mixins, which haven't always worked exactly as expected, and which I couldn't get to work at all with animations, but I'll keep working on that. P.S. the inline comments are also good.
 
