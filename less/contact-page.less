@@ -25,24 +25,41 @@
     }
 
     form {
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+
       padding: 15px;
       font-size: 1.6rem;
 
       input {
+        width: 50%;
         height: 3rem;
         padding: .25rem 1rem;
         font-size: 1.6rem;
       }
+
+      .submit-btn {
+        .sign-up-btn(80%, 1.6rem);
+        padding: 1rem 2rem;
+
+        @media @phone {
+          width: 100%;
+          padding: 3rem 0;
+          margin: 0 auto;
+        }
+      }
     }
 
     .magazine {
-      width: 40;
       height: 500px;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
 
       input {
+        width: 50%;
         height: 3rem;
         padding: .25rem 1rem;
         font-size: 1.6rem;
@@ -57,7 +74,7 @@
 
       .submit-btn {
         .sign-up-btn(80%, 1.6rem);
-        padding: 20px;
+        padding: 1rem 2rem;
 
         @media @phone {
           width: 100%;

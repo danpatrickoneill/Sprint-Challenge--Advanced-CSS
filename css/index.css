@@ -367,22 +367,54 @@ footer {
   padding: 0;
 }
 .contact .intro form {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   padding: 15px;
   font-size: 1.6rem;
 }
 .contact .intro form input {
+  width: 50%;
   height: 3rem;
   padding: 0.25rem 1rem;
   font-size: 1.6rem;
 }
+.contact .intro form .submit-btn {
+  max-width: 80%;
+  background: #22283A;
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem 0;
+  border: 1px dashed #22283A;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+}
+.contact .intro form .submit-btn:hover {
+  background: white;
+  color: #22283A;
+}
+.contact .intro form .submit-btn:active {
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+@media ( max-width: 500px ) {
+  .contact .intro form .submit-btn {
+    width: 100%;
+    padding: 3rem 0;
+    margin: 0 auto;
+  }
+}
 .contact .intro .magazine {
-  width: 40;
   height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 .contact .intro .magazine input {
+  width: 50%;
   height: 3rem;
   padding: 0.25rem 1rem;
   font-size: 1.6rem;
@@ -402,7 +434,7 @@ footer {
   padding: 1rem 0;
   border: 1px dashed #22283A;
   border-radius: 5px;
-  padding: 20px;
+  padding: 1rem 2rem;
 }
 .contact .intro .magazine .submit-btn:hover {
   background: white;
