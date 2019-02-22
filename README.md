@@ -38,7 +38,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Describe what it means to be mobile first vs desktop first.
 
-- Like the name sounds, it refers to whether a site is initially designed with a mobile-friendly or a desktop-friendly layout. In practical terms, it affects the kinds of media queries used in your CSS: max-width to build on a mobile-first design, min-width for desktop-first.
+- Like the name sounds, it refers to whether a site is initially designed with a mobile-friendly or a desktop-friendly layout. In practical terms, it affects the kinds of media queries used in your CSS: min-width to build on a mobile-first design, max-width for desktop-first.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 

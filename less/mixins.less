@@ -1,1 +1,22 @@
 // Mixins Here
+.sign-up-btn(@width, @text-size, @bg-color: @btn-bg-color, @text-color: white) {
+  max-width: @width;
+  background: @bg-color;
+  color: @text-color;
+  font-size: @text-size;
+  text-align: center;
+  padding: 1rem 0;
+  border: 1px dashed @bg-color;
+  border-radius: 5px;
+
+  &:hover {
+    background: @text-color;
+    color: @bg-color;
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+    left: 1px;
+  }
+}
